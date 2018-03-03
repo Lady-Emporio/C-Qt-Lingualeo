@@ -94,6 +94,28 @@ color: rgb(65, 48, 3);</string>
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
+       <widget class="QPushButton" name="pushButton_1">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Courier New</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(245, 242, 221);</string>
+        </property>
+        <property name="text">
+         <string>PushButton</string>
+        </property>
+       </widget>
+      </item>
+      <item>
        <widget class="QPushButton" name="pushButton_2">
         <property name="enabled">
          <bool>true</bool>
@@ -110,24 +132,8 @@ color: rgb(65, 48, 3);</string>
           <pointsize>10</pointsize>
          </font>
         </property>
-        <property name="text">
-         <string>PushButton</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="pushButton_4">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="font">
-         <font>
-          <family>Courier New</family>
-          <pointsize>10</pointsize>
-         </font>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(245, 242, 221);</string>
         </property>
         <property name="text">
          <string>PushButton</string>
@@ -148,13 +154,16 @@ color: rgb(65, 48, 3);</string>
           <pointsize>10</pointsize>
          </font>
         </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(245, 242, 221);</string>
+        </property>
         <property name="text">
          <string>PushButton</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_1">
+       <widget class="QPushButton" name="pushButton_4">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
           <horstretch>0</horstretch>
@@ -168,7 +177,7 @@ color: rgb(65, 48, 3);</string>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true"/>
+         <string notr="true">background-color: rgb(245, 242, 221);</string>
         </property>
         <property name="text">
          <string>PushButton</string>
