@@ -6,7 +6,10 @@ Widget::Widget(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    connect(ui->pushButton, SIGNAL(clicked()), this, SLOT(slotButton()));
+    connect(ui->pushButton_1, SIGNAL(clicked()), this, SLOT(slotButton()));
+    connect(ui->pushButton_2, SIGNAL(clicked()), this, SLOT(slotButton()));
+    connect(ui->pushButton_3, SIGNAL(clicked()), this, SLOT(slotButton()));
+    connect(ui->pushButton_4, SIGNAL(clicked()), this, SLOT(slotButton()));
 
 
 
@@ -25,5 +28,6 @@ Widget::~Widget()
 
 void Widget::slotButton()
 {
-    ui->label->setText("Click");
+    QObject* obj = sender();
+    ui->label->setText(obj->objectName());
 }
